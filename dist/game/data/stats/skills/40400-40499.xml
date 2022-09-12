@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="40400" toLevel="1" name="Special Equipment Challenge Point Efficiency Boost - 2 Charges">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40401" toLevel="1" name="Special Equipment Challenge Points' Enhanced Charge">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40402" toLevel="1" name="Special Equipment Challenge Points' Charge Protection">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40403" toLevel="1" name="Special Equipment Challenge Points' Charge Decrease">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40404" toLevel="1" name="Special Equipment Challenge Points' Charge Stabilization">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40405" toLevel="1" name="Five-colored Sweets - Reward">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40406" toLevel="1" name="Test_Appearance Stone: Emerald Weapon (Time-limited)">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40407" toLevel="1" name="Anniversary ?omplimentary Buff">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40408" toLevel="2" name="Anniversary Cake">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40409" toLevel="1" name="Anniversary Cake - Reward">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40410" toLevel="1" name="Comic Buff">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40411" toLevel="1" name="Spellbook: Mount Red Wyvern">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40412" toLevel="1" name="Scroll of Escape: Guardian Tanai">
+		<!-- A magical scroll that relocates you to the Guardian Tanai in Orc Village. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
+		<operateType>A1</operateType>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>97230</itemConsumeId> <!-- Scroll of Escape: Guardian Tanai -->
+		<magicLevel>1</magicLevel>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpAlignment">
+				<affectType>CASTER</affectType>
+				<alignment>LAWFUL</alignment>
+			</condition>
+			<condition name="OpCanEscape" />
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>-45079</x>
+				<y>-113511</y>
+				<z>-208</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="40413" toLevel="1" name="Scroll of Escape: Gantaki Zu Urutu">
+		<!-- A magical scroll that relocates you to the Gantaki Zu Urutu in Orc Village. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
+		<operateType>A1</operateType>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>97230</itemConsumeId> <!-- Scroll of Escape: Gantaki Zu Urutu -->
+		<magicLevel>1</magicLevel>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpAlignment">
+				<affectType>CASTER</affectType>
+				<alignment>LAWFUL</alignment>
+			</condition>
+			<condition name="OpCanEscape" />
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>-44718</x>
+				<y>-111969</y>
+				<z>-240</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="40414" toLevel="1" name="Rare Accessory Challenge Points +50">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40415" toLevel="1" name="Talisman Challenge Points +50">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40416" toLevel="1" name="Special Equipment Challenge Points">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="40417" toLevel="1" name="Scroll: Enchant Ignore Decrease Mask">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+</list>
