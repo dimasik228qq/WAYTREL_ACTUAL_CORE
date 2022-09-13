@@ -2998,7 +2998,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="Buff" id="4029" level="2" />
+
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
@@ -3025,7 +3025,7 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4029" level="2" /> <!-- NPC Shield -->
+
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3148,7 +3148,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="Buff" id="4074" level="2" />
+
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
@@ -3176,7 +3176,7 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4074" level="2" /> <!-- NPC Haste -->
+
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3297,10 +3297,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="SelfBuff1" id="4089" level="1" />
-			<skill name="SelfBuff2" id="4090" level="1" />
-			<skill name="SelfBuff3" id="4092" level="1" />
-			<skill name="SelfBuff4" id="4091" level="1" />
+
 		</parameters>
 		<race>GIANT</race>
 		<sex>MALE</sex>
@@ -3327,10 +3324,7 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4089" level="1" /> <!-- NPC Bear Spirit Totem -->
-			<skill id="4090" level="1" /> <!-- NPC Wolf Spirit Totem -->
-			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
-			<skill id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
+
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3375,7 +3369,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="DeBuff" id="4076" level="3" />
+
 		</parameters>
 		<race>PLANT</race>
 		<sex>MALE</sex>
@@ -3406,14 +3400,12 @@
 			<skill id="4277" level="5" /> <!-- Infection Resistance -->
 			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
 			<skill id="4071" level="4" /> <!-- Bow Resistance -->
-			<skill id="4076" level="3" /> <!-- Decrease Speed -->
+
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
-			<clanList>
-				<clan>ALL</clan>
-			</clanList>
+
 		</ai>
 		<collision>
 			<radius normal="15" />
@@ -3467,9 +3459,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<skill name="W_LongRangeDDMagic" id="4155" level="4" /> <!-- NPC Twister - Magic -->
-			<skill name="W_ShortRangeDDMagic" id="4160" level="4" /> <!-- NPC Aura Burn - Magic -->
-			<skill name="DeBuff" id="4076" level="3" /> <!-- Decrease Speed -->
+
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -3503,9 +3493,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false">
-			<clanList>
-				<clan>ALL</clan>
-			</clanList>
+
 		</ai>
 		<collision>
 			<radius normal="29" />
@@ -3645,7 +3633,6 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="DeBuff" id="4076" level="3" />
 		</parameters>
 		<race>PLANT</race>
 		<sex>MALE</sex>
@@ -3731,7 +3718,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="DDMagicSlow" id="4250" level="4" /> <!-- NPC Twister - Slow -->
+
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>

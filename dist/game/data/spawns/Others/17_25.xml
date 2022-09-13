@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="17_25">
+		<group>
+
+			<npc id="18342" x="-90587" y="248311" z="-3568" heading="37496" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90587" y="248311" z="-3568" heading="37496" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90587" y="248311" z="-3568" heading="37496" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90587" y="248311" z="-3568" heading="37496" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90587" y="248311" z="-3568" heading="37496" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90587" y="248311" z="-3568" heading="37496" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90519" y="248281" z="-3568" heading="61202" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90519" y="248281" z="-3568" heading="61202" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90519" y="248281" z="-3568" heading="61202" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90519" y="248281" z="-3568" heading="61202" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90373" y="248512" z="-3568" heading="10747" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90373" y="248512" z="-3568" heading="10747" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90373" y="248512" z="-3568" heading="10747" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90373" y="248512" z="-3568" heading="10747" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90373" y="248512" z="-3568" heading="10747" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90373" y="248512" z="-3568" heading="10747" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90373" y="248512" z="-3568" heading="10747" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90373" y="248512" z="-3568" heading="10747" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90275" y="248499" z="-3568" heading="64160" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90275" y="248499" z="-3568" heading="64160" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90275" y="248499" z="-3568" heading="64160" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90275" y="248499" z="-3568" heading="64160" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90275" y="248499" z="-3568" heading="64160" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90240" y="248432" z="-3568" heading="54173" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90240" y="248432" z="-3568" heading="54173" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90525" y="248318" z="-3568" heading="36736" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90614" y="248331" z="-3568" heading="9252" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90614" y="248331" z="-3568" heading="9252" respawnTime="15sec" /> <!-- Gremlin -->
+			<npc id="18342" x="-90614" y="248331" z="-3568" heading="9252" respawnTime="15sec" /> <!-- Gremlin -->
+		</group>
+	</spawn>
+</list>

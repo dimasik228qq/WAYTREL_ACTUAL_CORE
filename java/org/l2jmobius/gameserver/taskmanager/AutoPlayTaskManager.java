@@ -47,7 +47,7 @@ public class AutoPlayTaskManager implements Runnable
 	
 	protected AutoPlayTaskManager()
 	{
-		ThreadPool.scheduleAtFixedRate(this, 250, 250);
+		ThreadPool.scheduleAtFixedRate(this, 150, 150);
 	}
 	
 	@Override

@@ -27,9 +27,9 @@
 	<teleport id="32" price="200"> <!-- Ruins of Agony -->
 		<location x="-42307" y="120810" z="-3368" />
 		<location x="-47785" y="111957" z="-3584" />
-		<location x="-46166" y="108893" z="-3792" />
-		<location x="-57040" y="112462" z="-3064" />
-		<location x="-53117" y="119693" z="-2968" />
+		<location x="-46166" y="108893" z="-3792" /> 
+
+
 	</teleport>
 	<teleport id="34" x="-9970" y="175793" z="-4128" price="770" /> <!-- Ant Nest -->
 	<teleport id="35" x="-80684" y="149770" z="-3040" price="1000" /> <!-- Gludin Village -->

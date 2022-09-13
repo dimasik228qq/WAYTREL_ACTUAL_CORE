@@ -2,24 +2,10 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
 	<spawn name="Giran">
 		<group>
-			<npc id="20248" x="98302" y="136197" z="-3528" heading="25104" respawnTime="60sec" /> <!-- Turak Bugbear -->
-			<npc id="20249" x="98152" y="134216" z="-3611" heading="49900" respawnTime="60sec" /> <!-- Turak Bugbear Warrior -->
-			<npc id="20248" x="98152" y="134216" z="-3611" heading="49900" respawnTime="60sec" /> <!-- Turak Bugbear -->
-			<npc id="20249" x="98193" y="133402" z="-3563" heading="46411" respawnTime="60sec" /> <!-- Turak Bugbear Warrior -->
-			<npc id="20248" x="97538" y="131859" z="-3485" heading="27092" respawnTime="60sec" /> <!-- Turak Bugbear -->
-			<npc id="20249" x="97538" y="131859" z="-3485" heading="27092" respawnTime="60sec" /> <!-- Turak Bugbear Warrior -->
-			<npc id="20248" x="96934" y="132462" z="-3546" heading="21877" respawnTime="60sec" /> <!-- Turak Bugbear -->
-			<npc id="20249" x="96934" y="132462" z="-3546" heading="21877" respawnTime="60sec" /> <!-- Turak Bugbear Warrior -->
-			<npc id="20249" x="96141" y="132150" z="-3521" heading="39113" respawnTime="60sec" /> <!-- Turak Bugbear Warrior -->
-			<npc id="20248" x="96141" y="132150" z="-3521" heading="39113" respawnTime="60sec" /> <!-- Turak Bugbear -->
-			<npc id="20248" x="95650" y="131672" z="-3494" heading="42556" respawnTime="60sec" /> <!-- Turak Bugbear -->
-			<npc id="20249" x="95650" y="131672" z="-3494" heading="42556" respawnTime="60sec" /> <!-- Turak Bugbear Warrior -->
-			<npc id="20176" x="98109" y="132266" z="-3483" heading="30889" respawnTime="60sec" /> <!-- Wyrm -->
-			<npc id="20176" x="97364" y="132853" z="-3544" heading="19664" respawnTime="60sec" /> <!-- Wyrm -->
-			<npc id="20176" x="98069" y="134836" z="-3644" heading="9720" respawnTime="60sec" /> <!-- Wyrm -->
+		
 			<npc id="30878" x="47984" y="186832" z="-3445" heading="42000" respawnTime="60sec" /> <!-- Angelina - Gatekeeper -->
 			<npc id="31031" x="82272" y="147072" z="-3514" heading="16384" respawnTime="5sec" /> <!-- Anchor Crystal -->
-			<npc id="30640" x="106345" y="135523" z="-3415" heading="0" respawnTime="60sec" /> <!-- Brynthea - Summoner -->
+
 			<npc id="30755" x="131176" y="114676" z="-3718" heading="40960" respawnTime="60sec" /> <!-- Theodric - Antharas' Watchman -->
 			<npc id="13001" x="154695" y="121097" z="-3757" heading="0" respawnTime="60sec" /> <!-- Heart of Warding -->
 			<npc id="30015" x="105285" y="162607" z="-3600" heading="40961" respawnTime="60sec" /> <!-- Ferma -->

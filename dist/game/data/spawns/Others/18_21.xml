@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="18_21">
+		<group>
+			<npc id="20051" x="-43291" y="119194" z="-3544" heading="28799" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-43316" y="119208" z="-3544" heading="27443" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-43297" y="119146" z="-3544" heading="52253" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20062" x="-43352" y="119154" z="-3544" heading="31261" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20051" x="-43376" y="119215" z="-3544" heading="20293" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-43417" y="119255" z="-3544" heading="24704" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-43330" y="119212" z="-3544" heading="60748" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20062" x="-43390" y="119285" z="-3544" heading="23559" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-43197" y="119133" z="-3544" heading="58472" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20054" x="-43174" y="119057" z="-3544" heading="52217" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20051" x="-43181" y="118943" z="-3544" heading="48512" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-43260" y="118880" z="-3544" heading="39789" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20064" x="-42469" y="118759" z="-3544" heading="65423" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20062" x="-42505" y="118732" z="-3544" heading="39479" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20064" x="-42576" y="118755" z="-3544" heading="29500" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20062" x="-42680" y="118796" z="-3544" heading="28851" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20054" x="-42705" y="118756" z="-3544" heading="43325" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-42529" y="118729" z="-3544" heading="63948" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-42618" y="118682" z="-3544" heading="37835" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-42708" y="118672" z="-3544" heading="33922" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-42792" y="118709" z="-3544" heading="28440" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20054" x="-42603" y="118744" z="-3544" heading="1909" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-42614" y="118783" z="-3544" heading="19251" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-43838" y="118104" z="-3544" heading="38621" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-43838" y="118104" z="-3544" heading="38621" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-43838" y="118104" z="-3544" heading="38621" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-43838" y="118104" z="-3544" heading="38621" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-43838" y="118104" z="-3544" heading="38621" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-43838" y="118104" z="-3544" heading="38621" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-43838" y="118104" z="-3544" heading="38621" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20062" x="-43838" y="118104" z="-3544" heading="38621" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-43881" y="118161" z="-3544" heading="23125" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20060" x="-43991" y="118095" z="-3544" heading="38404" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-43991" y="118095" z="-3544" heading="38404" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-44072" y="117993" z="-3544" heading="42151" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-44072" y="117993" z="-3544" heading="42151" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20051" x="-42823" y="117800" z="-3544" heading="25615" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-42823" y="117800" z="-3544" heading="25615" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-42823" y="117800" z="-3544" heading="25615" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-42823" y="117800" z="-3544" heading="25615" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-42823" y="117800" z="-3544" heading="25615" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-42823" y="117800" z="-3544" heading="25615" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20062" x="-42823" y="117800" z="-3544" heading="25615" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-42823" y="117800" z="-3544" heading="25615" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20064" x="-42882" y="117906" z="-3544" heading="21681" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20064" x="-42882" y="117906" z="-3544" heading="21681" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20064" x="-42846" y="117986" z="-3544" heading="11973" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20051" x="-42890" y="117659" z="-3544" heading="47756" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-42942" y="117705" z="-3544" heading="25213" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-42984" y="117769" z="-3544" heading="22441" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20051" x="-44062" y="117032" z="-3560" heading="50480" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-44062" y="117032" z="-3560" heading="50480" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-44062" y="117032" z="-3560" heading="50480" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20054" x="-44062" y="117032" z="-3560" heading="50480" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20051" x="-44062" y="117032" z="-3560" heading="50480" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-44140" y="116852" z="-3560" heading="44886" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-44140" y="116852" z="-3560" heading="44886" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20062" x="-44140" y="116852" z="-3560" heading="44886" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20064" x="-44228" y="116802" z="-3544" heading="38157" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20064" x="-44216" y="116709" z="-3544" heading="50490" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20062" x="-44281" y="116616" z="-3544" heading="42789" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-44281" y="116616" z="-3544" heading="42789" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-44281" y="116616" z="-3544" heading="42789" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-44227" y="116589" z="-3560" heading="60699" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20051" x="-44249" y="116520" z="-3560" heading="45932" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-44278" y="116458" z="-3560" heading="44588" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20062" x="-43331" y="116399" z="-3544" heading="1314" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-43331" y="116399" z="-3544" heading="1314" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-43331" y="116399" z="-3544" heading="1314" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-43331" y="116399" z="-3544" heading="1314" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20064" x="-43331" y="116399" z="-3544" heading="1314" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20064" x="-43331" y="116399" z="-3544" heading="1314" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20064" x="-43331" y="116399" z="-3544" heading="1314" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20060" x="-43482" y="116449" z="-3544" heading="29432" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-43409" y="116672" z="-3544" heading="5838" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-43409" y="116672" z="-3544" heading="5838" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-43409" y="116672" z="-3544" heading="5838" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-43441" y="116640" z="-3544" heading="40959" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-43492" y="116572" z="-3544" heading="42440" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-43545" y="116513" z="-3544" heading="41518" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20051" x="-49071" y="111555" z="-3576" heading="35823" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-49071" y="111555" z="-3576" heading="35823" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-49071" y="111555" z="-3576" heading="35823" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-49071" y="111555" z="-3576" heading="35823" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-49071" y="111555" z="-3576" heading="35823" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-49071" y="111555" z="-3576" heading="35823" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-49071" y="111555" z="-3576" heading="35823" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-49071" y="111555" z="-3576" heading="35823" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-49071" y="111555" z="-3576" heading="35823" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-48875" y="111416" z="-3576" heading="62152" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-48875" y="111416" z="-3576" heading="62152" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-48875" y="111416" z="-3576" heading="62152" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-48875" y="111416" z="-3576" heading="62152" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-48875" y="111416" z="-3576" heading="62152" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-49018" y="111277" z="-3576" heading="40812" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-49018" y="111277" z="-3576" heading="40812" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-49018" y="111277" z="-3576" heading="40812" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-49018" y="111277" z="-3576" heading="40812" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-49018" y="111277" z="-3576" heading="40812" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20062" x="-49219" y="111350" z="-3576" heading="29134" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-49219" y="111350" z="-3576" heading="29134" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20060" x="-49385" y="111476" z="-3576" heading="25995" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-49385" y="111476" z="-3576" heading="25995" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-49385" y="111476" z="-3576" heading="25995" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-49385" y="111476" z="-3576" heading="25995" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-49385" y="111476" z="-3576" heading="25995" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-49248" y="111882" z="-3576" heading="13626" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-49248" y="111882" z="-3576" heading="13626" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-49248" y="111882" z="-3576" heading="13626" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-48790" y="111916" z="-3576" heading="8227" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-48790" y="111916" z="-3576" heading="8227" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-48790" y="111916" z="-3576" heading="8227" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-48790" y="111916" z="-3576" heading="8227" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-48790" y="111916" z="-3576" heading="8227" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-48790" y="111916" z="-3576" heading="8227" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-46200" y="112425" z="-3800" heading="13867" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-46200" y="112425" z="-3800" heading="13867" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-46200" y="112425" z="-3800" heading="13867" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-46192" y="112500" z="-3800" heading="15275" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-46192" y="112500" z="-3800" heading="15275" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-46192" y="112500" z="-3800" heading="15275" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-46192" y="112500" z="-3800" heading="15275" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-46174" y="112655" z="-3800" heading="15178" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-46174" y="112655" z="-3800" heading="15178" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-46174" y="112655" z="-3800" heading="15178" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-46174" y="112655" z="-3800" heading="15178" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20062" x="-46234" y="112194" z="-3800" heading="49309" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-46234" y="112194" z="-3800" heading="49309" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-46234" y="112194" z="-3800" heading="49309" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-46234" y="112194" z="-3800" heading="49309" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-46234" y="112194" z="-3800" heading="49309" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-46234" y="112194" z="-3800" heading="49309" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-46048" y="112188" z="-3800" heading="65199" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20054" x="-45841" y="112493" z="-3800" heading="10278" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-45841" y="112493" z="-3800" heading="10278" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-45841" y="112493" z="-3800" heading="10278" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-45841" y="112493" z="-3800" heading="10278" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-45841" y="112493" z="-3800" heading="10278" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20062" x="-45909" y="112627" z="-3800" heading="21282" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20064" x="-45909" y="112627" z="-3800" heading="21282" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20051" x="-45909" y="112627" z="-3800" heading="21282" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-45909" y="112627" z="-3800" heading="21282" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20064" x="-44948" y="113465" z="-3800" heading="7200" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20062" x="-44948" y="113465" z="-3800" heading="7200" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20064" x="-44948" y="113465" z="-3800" heading="7200" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20062" x="-44948" y="113465" z="-3800" heading="7200" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20064" x="-44755" y="113538" z="-3800" heading="3771" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20062" x="-44755" y="113538" z="-3800" heading="3771" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20064" x="-44755" y="113538" z="-3800" heading="3771" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20062" x="-44860" y="113690" z="-3800" heading="22689" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20064" x="-44970" y="113797" z="-3784" heading="24718" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20062" x="-45083" y="113840" z="-3784" heading="29025" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20051" x="-45119" y="113502" z="-3800" heading="53557" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-45077" y="113549" z="-3800" heading="8777" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-44950" y="113433" z="-3800" heading="57815" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20054" x="-44846" y="113432" z="-3800" heading="65445" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20051" x="-44795" y="113352" z="-3800" heading="53988" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-46246" y="110366" z="-3800" heading="46104" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-45993" y="110322" z="-3800" heading="1058" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20054" x="-46233" y="110068" z="-3800" heading="41079" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-46233" y="110068" z="-3800" heading="41079" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-46233" y="110068" z="-3800" heading="41079" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20060" x="-46027" y="110040" z="-3800" heading="64126" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20054" x="-45892" y="110169" z="-3800" heading="7954" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-45873" y="110371" z="-3800" heading="15405" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20051" x="-45937" y="110563" z="-3800" heading="19739" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-45992" y="110761" z="-3800" heading="19236" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-46244" y="110704" z="-3800" heading="36035" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-46431" y="110582" z="-3800" heading="38848" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-46554" y="110445" z="-3800" heading="41521" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-46554" y="110445" z="-3800" heading="41521" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-46554" y="110445" z="-3800" heading="41521" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20054" x="-46659" y="110302" z="-3800" heading="42545" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-46659" y="110302" z="-3800" heading="42545" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-46659" y="110302" z="-3800" heading="42545" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-46659" y="110302" z="-3800" heading="42545" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-46659" y="110302" z="-3800" heading="42545" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20051" x="-46525" y="110182" z="-3800" heading="57918" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-46525" y="110182" z="-3800" heading="57918" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-46525" y="110182" z="-3800" heading="57918" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-46525" y="110182" z="-3800" heading="57918" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-46525" y="110182" z="-3800" heading="57918" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20062" x="-46469" y="109901" z="-3800" heading="51203" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-46469" y="109901" z="-3800" heading="51203" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-46469" y="109901" z="-3800" heading="51203" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-46469" y="109901" z="-3800" heading="51203" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-46469" y="109901" z="-3800" heading="51203" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20064" x="-46668" y="109650" z="-3800" heading="42159" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20064" x="-46668" y="109650" z="-3800" heading="42159" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20064" x="-46668" y="109650" z="-3800" heading="42159" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20064" x="-46668" y="109650" z="-3800" heading="42159" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20064" x="-46668" y="109650" z="-3800" heading="42159" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20051" x="-45215" y="110859" z="-3800" heading="6599" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-45215" y="110859" z="-3800" heading="6599" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-45215" y="110859" z="-3800" heading="6599" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-45215" y="110859" z="-3800" heading="6599" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-45215" y="110859" z="-3800" heading="6599" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-45136" y="111059" z="-3800" heading="12460" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-45136" y="111059" z="-3800" heading="12460" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-45136" y="111059" z="-3800" heading="12460" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-45136" y="111059" z="-3800" heading="12460" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-45136" y="111059" z="-3800" heading="12460" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-45136" y="111059" z="-3800" heading="12460" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-45142" y="111254" z="-3800" heading="16704" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-45142" y="111254" z="-3800" heading="16704" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-45142" y="111254" z="-3800" heading="16704" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-45142" y="111254" z="-3800" heading="16704" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-45142" y="111254" z="-3800" heading="16704" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20062" x="-45048" y="111492" z="-3800" heading="12460" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-45048" y="111492" z="-3800" heading="12460" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-45048" y="111492" z="-3800" heading="12460" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-45048" y="111492" z="-3800" heading="12460" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-45048" y="111492" z="-3800" heading="12460" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="-45301" y="111440" z="-3800" heading="32199" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20054" x="-48010" y="108733" z="-3720" heading="39989" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-48010" y="108733" z="-3720" heading="39989" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-48010" y="108733" z="-3720" heading="39989" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-48010" y="108733" z="-3720" heading="39989" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20054" x="-48010" y="108733" z="-3720" heading="39989" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20051" x="-48308" y="108680" z="-3720" heading="34603" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-48308" y="108680" z="-3720" heading="34603" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-48308" y="108680" z="-3720" heading="34603" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-48308" y="108680" z="-3720" heading="34603" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20051" x="-48308" y="108680" z="-3720" heading="34603" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20060" x="-48607" y="108655" z="-3720" heading="33638" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-48607" y="108655" z="-3720" heading="33638" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-48607" y="108655" z="-3720" heading="33638" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20060" x="-48607" y="108655" z="-3720" heading="33638" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-48249" y="108931" z="-3704" heading="5128" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-48114" y="109006" z="-3715" heading="5367" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-48081" y="109026" z="-3720" heading="5367" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20054" x="-48081" y="109026" z="-3720" heading="5367" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20051" x="-48081" y="109026" z="-3720" heading="5367" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-47864" y="108998" z="-3720" heading="64197" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-47864" y="108998" z="-3720" heading="64197" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-47864" y="108998" z="-3720" heading="64197" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20062" x="-47639" y="109010" z="-3720" heading="555" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20060" x="-47639" y="109010" z="-3720" heading="555" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20054" x="-47639" y="109010" z="-3720" heading="555" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20051" x="-47639" y="109010" z="-3720" heading="555" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-47642" y="108858" z="-3720" heading="48946" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-47642" y="108858" z="-3720" heading="48946" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20062" x="-47642" y="108858" z="-3720" heading="48946" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20051" x="-47642" y="108858" z="-3720" heading="48946" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-46116" y="111044" z="-3800" heading="12507" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-46116" y="111044" z="-3800" heading="12507" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-46116" y="111044" z="-3800" heading="12507" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-43726" y="117537" z="-3560" heading="36652" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-43726" y="117537" z="-3560" heading="36652" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-43726" y="117537" z="-3560" heading="36652" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-43726" y="117537" z="-3560" heading="36652" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-43726" y="117537" z="-3560" heading="36652" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-43726" y="117537" z="-3560" heading="36652" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-43749" y="117417" z="-3560" heading="47176" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-43749" y="117417" z="-3560" heading="47176" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-43749" y="117417" z="-3560" heading="47176" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20060" x="-43241" y="117337" z="-3544" heading="63750" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20054" x="-43241" y="117337" z="-3544" heading="63750" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20051" x="-43241" y="117337" z="-3544" heading="63750" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20054" x="-43241" y="117337" z="-3544" heading="63750" respawnTime="15sec" /> <!-- Ruin Spartoi -->
+			<npc id="20060" x="-43241" y="117337" z="-3544" heading="63750" respawnTime="15sec" /> <!-- Raging Spartoi -->
+			<npc id="20051" x="-43241" y="117337" z="-3544" heading="63750" respawnTime="15sec" /> <!-- Skeleton Bowman -->
+			<npc id="20062" x="-43231" y="117416" z="-3544" heading="15070" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20064" x="-43231" y="117416" z="-3544" heading="15070" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20062" x="-43231" y="117416" z="-3544" heading="15070" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20064" x="-43231" y="117416" z="-3544" heading="15070" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+			<npc id="20062" x="-43231" y="117416" z="-3544" heading="15070" respawnTime="15sec" /> <!-- Tumran Bugbear -->
+			<npc id="20064" x="-43231" y="117416" z="-3544" heading="15070" respawnTime="15sec" /> <!-- Tumran Bugbear Warrior -->
+		</group>
+	</spawn>
+</list>
