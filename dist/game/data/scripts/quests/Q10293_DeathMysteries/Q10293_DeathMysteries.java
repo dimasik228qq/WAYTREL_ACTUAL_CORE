@@ -51,7 +51,7 @@ public class Q10293_DeathMysteries extends Quest
 	private static final ItemHolder SOE_HIGH_PRIEST_MAXIMILIAN = new ItemHolder(95595, 1);
 	private static final ItemHolder SAYHA_GUST = new ItemHolder(91776, 9);
 	private static final ItemHolder MAGIC_LAMP_CHARGING_POTION = new ItemHolder(91757, 1);
-	private static final ItemHolder SCROLL_OF_ENCHANT_ADEN_WEAPON = new ItemHolder(93038, 2);
+	// private static final ItemHolder SCROLL_OF_ENCHANT_ADEN_WEAPON = new ItemHolder(93038, 2);
 	// Misc
 	private static final String KILL_COUNT_VAR = "KillCount";
 	private static final int MIN_LEVEL = 35;
@@ -133,7 +133,7 @@ public class Q10293_DeathMysteries extends Quest
 					addExpAndSp(player, player.getLevel() < MAX_LEVEL ? (ExperienceData.getInstance().getExpForLevel(MAX_LEVEL) + 100) - player.getExp() : 0, 160000);
 					giveItems(player, SAYHA_GUST);
 					giveItems(player, MAGIC_LAMP_CHARGING_POTION);
-					giveItems(player, SCROLL_OF_ENCHANT_ADEN_WEAPON);
+					// giveItems(player, SCROLL_OF_ENCHANT_ADEN_WEAPON);
 					qs.exitQuest(false, true);
 					htmltext = event;
 					break;

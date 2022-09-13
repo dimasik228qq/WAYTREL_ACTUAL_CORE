@@ -3507,7 +3507,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="2" /> <!-- NPC Strike -->
+
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -3535,7 +3535,7 @@
 			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4032" level="2" /> <!-- NPC Strike -->
+
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>

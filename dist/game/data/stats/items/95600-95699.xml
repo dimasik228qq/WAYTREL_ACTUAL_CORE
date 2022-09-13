@@ -441,10 +441,13 @@
 			<player level="1" />
 		</cond>
 		<capsuled_items>
-			<item id="91927" min="1000" max="1000" chance="100" /> <!-- Soulshot - Sealed -->
-			<item id="91930" min="350" max="350" chance="100" /> <!-- Blessed Spiritshot - Sealed -->
-			<item id="93421" min="1" max="1" chance="100" /> <!-- Valakas' Necklace - Sealed -->
-			<item id="95643" min="1" max="1" chance="100" /> <!-- Kit: Sylph's New Adventure Lv. 2 (Time-limited) - Sealed -->
+			<item id="93498" min="1" max="1" chance="100" /> <!-- Enchanted C-grade Weapon Coupon (Sealed) -->
+			<item id="93421" min="1" max="1" chance="100" /> <!-- Valakas' Necklace -->
+			<item id="91912" min="200" max="200" chance="100" /> <!-- Зелье HP -->
+			<item id="90907" min="100" max="100" chance="100" /> <!-- Soulshot Ticket -->
+			<item id="94269" min="5" max="5" chance="100" /> <!-- Scroll: Boost Attack (Time-limited) -->
+			<item id="94271" min="5" max="5" chance="100" /> <!-- Scroll: Boost Defense (Time-limited) -->
+			<item id="95643" min="1" max="1" chance="100"/> <!-- Kit: Vanguard Rider Adventure Lv. 20 -->
 		</capsuled_items>
 	</item>
 	<item id="95643" name="Kit: Sylph's New Adventure Lv. 2 (Time-limited)" additionalName="Sealed" type="EtcItem">

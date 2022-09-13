@@ -28,7 +28,7 @@ import org.l2jmobius.gameserver.model.quest.Quest;
 import org.l2jmobius.gameserver.model.quest.QuestState;
 import org.l2jmobius.gameserver.network.NpcStringId;
 
-import quests.Q10295_RespectForGraves.Q10295_RespectForGraves;
+//import quests.Q10295_RespectForGraves.Q10295_RespectForGraves;
 
 /**
  * @author quangnguyen
@@ -55,7 +55,7 @@ public class Q10297_MemoryOfTheGloriousPast extends Quest
 	private static final ItemHolder SPIRIT_ORE = new ItemHolder(3031, 450);
 	// Misc
 	private static final int MIN_LEVEL = 56;
-	private static final int MAX_LEVEL = 64;
+	private static final int MAX_LEVEL = 70;
 	private static final String KILL_COUNT_VAR = "KillCount";
 	
 	public Q10297_MemoryOfTheGloriousPast()
@@ -66,7 +66,7 @@ public class Q10297_MemoryOfTheGloriousPast extends Quest
 		addKillId(VANOR_SILENOS, VANOR_SILENOS_SOLDIER, VANOR_SILENOS_SCOUT, VANOR_SILENOS_WARRIOR, VANOR_SILENOS_SHAMAN, VANOR_SILENOS_CHIEFTAIN, VANOR_MERCENARY_OF_GLORY, GUARD_OF_HONOR);
 		addCondMinLevel(MIN_LEVEL, "no_lvl.html");
 		addCondMaxLevel(MAX_LEVEL, "no_lvl.html");
-		addCondCompletedQuest(Q10295_RespectForGraves.class.getSimpleName(), "no_lvl.html");
+		// addCondCompletedQuest(Q10295_RespectForGraves.class.getSimpleName(), "no_lvl.html");
 		setQuestNameNpcStringId(NpcStringId.LV_56_64_MEMORY_OF_THE_GLORIOUS_PAST);
 	}
 	
@@ -190,7 +190,7 @@ public class Q10297_MemoryOfTheGloriousPast extends Quest
 		{
 			final Set<NpcLogListHolder> holder = new HashSet<>();
 			holder.add(new NpcLogListHolder(NpcStringId.KILL_MONSTERS_ON_THE_PLAINS_OF_GLORY.getId(), true, qs.getInt(KILL_COUNT_VAR)));
-			holder.add(new NpcLogListHolder(NpcStringId.REACH_LV_64, player.getLevel() > 63 ? 1 : 0));
+			holder.add(new NpcLogListHolder(NpcStringId.REACH_LV_64, player.getLevel() > 50 ? 1 : 0));
 			return holder;
 		}
 		return super.getNpcLogList(player);

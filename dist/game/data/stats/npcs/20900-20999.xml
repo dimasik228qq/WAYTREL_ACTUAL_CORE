@@ -323,7 +323,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="Buff" id="4031" level="2" />
+
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
@@ -350,7 +350,7 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4031" level="2" /> <!-- NPC Clan Aegis -->
+
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>

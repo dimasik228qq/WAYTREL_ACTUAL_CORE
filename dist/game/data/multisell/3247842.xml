@@ -31,8 +31,9 @@
 	<item>
 		<!-- Enchanted C-grade Weapon Coupon -->
 		<ingredient count="1" id="93498" />
-		<!-- +4 ~ +15 Weapon Pack - Eminence Bow -->
+		<!-- +4 ~ +15 Weapon Pack - Eminence Bow  + infinite steel arrow -->
 		<production count="1" id="93440" />
+		<production count="1" id="92333" />
 	</item>
 	<item>
 		<!-- Enchanted C-grade Weapon Coupon -->
@@ -79,7 +80,9 @@
 	<item>
 		<!-- Enchanted C-grade Weapon Coupon -->
 		<ingredient count="1" id="93498" />
-		<!-- +4 ~ +15 Weapon Pack - Flint Pistols -->
+		<!-- +4 ~ +15 Weapon Pack - Flint Pistols + C orb -->
 		<production count="1" id="95658" />
+		<production count="1" id="94893" /> 
+		
 	</item>
 </list>

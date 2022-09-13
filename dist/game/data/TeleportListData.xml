@@ -35,7 +35,10 @@
 	<teleport id="35" x="-80684" y="149770" z="-3040" price="1000" /> <!-- Gludin Village -->
 	<teleport id="36" x="-91080" y="149860" z="-3624" price="2000" /> <!-- Gludin Harbor -->
 	<teleport id="37" x="-14424" y="123972" z="-3120" price="1000" /> <!-- Town of Gludio -->
-	<teleport id="38" x="-46427" y="147921" z="-2960" price="770" /> <!-- Abandoned Camp -->
+	<teleport id="38" price="770" > <!-- Abandoned Camp -->
+		<location x="-46427" y="147921" z="-2960" />
+		<location x="-44726" y="142418" z="-3016" />
+	</teleport>
 	<teleport id="39" x="-91509" y="107149" z="-3688" price="24000" /> <!-- Orc Baracks -->
 	<teleport id="46" x="-45210" y="202654" z="-3592" price="1650" /> <!-- Langk Lizardmen Dwellings -->
 	<teleport id="49" x="-84191" y="244531" z="-3728" price="1000" /> <!-- Talking Island -->

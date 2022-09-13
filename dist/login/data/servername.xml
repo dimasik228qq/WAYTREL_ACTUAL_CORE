@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <servers_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="servername.xsd">
-	<server id="1" name="Bartz" />
-	<server id="2" name="Waytrel" />
+	<server id="1" name="Waytrel" />
+	<server id="2" name="Bartz" />
 	<server id="3" name="Kain" />
 	<server id="4" name="Lionna" />
 	<server id="5" name="Erica" />
@@ -50,7 +50,7 @@
 	<server id="48" name="Vasper" />
 	<server id="49" name="Lancer" />
 	<server id="50" name="Ashton" />
-	<server id="51" name="Waytrel" />
+	<server id="51" name="Waytrel_old" />
 	<server id="52" name="Waltner" />
 	<server id="53" name="Tahnford" />
 	<server id="54" name="PTS2" />

@@ -52,7 +52,10 @@ public class Q10290_ATripBegins extends Quest
 	private static final ItemHolder ADVENTURERS_TALISMAN = new ItemHolder(91937, 1);
 	private static final ItemHolder SCROLL_OF_ENCHANT_ADVENTURERS_TALISMAN = new ItemHolder(95688, 1);
 	private static final ItemHolder ADVENTURERS_BRACELET = new ItemHolder(91934, 1);
-	private static final ItemHolder SCROLL_OF_ENCHANT_ADEN_WEAPON = new ItemHolder(93038, 2);
+	/**
+	 * Remove Aden Scroll from quest private static final ItemHolder SCROLL_OF_ENCHANT_ADEN_WEAPON = new ItemHolder(93038, 2);
+	 */
+	
 	// Monsters
 	private static final int ARACHNID_PREDATOR = 20926;
 	private static final int SKELETON_BOWMAN = 20051;
@@ -180,10 +183,12 @@ public class Q10290_ATripBegins extends Quest
 					{
 						giveItems(player, SCROLL_OF_ENCHANT_ADVENTURERS_TALISMAN);
 					}
-					if (player.getInventory().getAllItemsByItemId(SCROLL_OF_ENCHANT_ADEN_WEAPON.getId()).isEmpty())
-					{
-						giveItems(player, SCROLL_OF_ENCHANT_ADEN_WEAPON);
-					}
+					
+					// if (player.getInventory().getAllItemsByItemId(SCROLL_OF_ENCHANT_ADEN_WEAPON.getId()).isEmpty())
+					// {
+					// giveItems(player, SCROLL_OF_ENCHANT_ADEN_WEAPON);
+					// }
+					
 					qs.exitQuest(false, true);
 					htmltext = "30332-03.html";
 				}

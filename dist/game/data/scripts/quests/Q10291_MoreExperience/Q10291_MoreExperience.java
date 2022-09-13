@@ -49,7 +49,7 @@ public class Q10291_MoreExperience extends Quest
 	private static final ItemHolder SOE_ABANDNED_CAMP = new ItemHolder(91725, 1);
 	private static final ItemHolder ADVENTURERS_BROOCH = new ItemHolder(91932, 1);
 	private static final ItemHolder ADVENTURERS_BROOCH_GEMS = new ItemHolder(91936, 1);
-	private static final ItemHolder SCROLL_ENCHANT_ADEN_WEAPON = new ItemHolder(93038, 2);
+	// private static final ItemHolder SCROLL_ENCHANT_ADEN_WEAPON = new ItemHolder(93038, 2);
 	// Misc
 	private static final String KILL_COUNT_VAR = "KillCount";
 	private static final int MIN_LEVEL = 25;
@@ -99,7 +99,7 @@ public class Q10291_MoreExperience extends Quest
 				addExpAndSp(player, player.getLevel() < MAX_LEVEL ? (ExperienceData.getInstance().getExpForLevel(MAX_LEVEL) + 100) - player.getExp() : 0, 117500);
 				giveItems(player, ADVENTURERS_BROOCH);
 				giveItems(player, ADVENTURERS_BROOCH_GEMS);
-				giveItems(player, SCROLL_ENCHANT_ADEN_WEAPON);
+				// giveItems(player, SCROLL_ENCHANT_ADEN_WEAPON);
 				qs.exitQuest(false, true);
 				htmltext = event;
 				break;

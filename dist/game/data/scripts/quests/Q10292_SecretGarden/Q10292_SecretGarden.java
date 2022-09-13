@@ -48,7 +48,7 @@ public class Q10292_SecretGarden extends Quest
 	// Items
 	private static final ItemHolder SOE_GORGON_FLOWER_GARDEN = new ItemHolder(95588, 1);
 	private static final ItemHolder SOE_HIGH_PRIEST_RAYMOND = new ItemHolder(91736, 1);
-	private static final ItemHolder SCROLL_ENCHANT_ADEN_WEAPON = new ItemHolder(93038, 2);
+	// private static final ItemHolder SCROLL_ENCHANT_ADEN_WEAPON = new ItemHolder(93038, 2);
 	private static final ItemHolder TRAVELER_AGATHION_SUMMON_BRACELET = new ItemHolder(91933, 1);
 	private static final ItemHolder TRAVELER_AGATHION_GRIFFIN = new ItemHolder(91935, 1);
 	// Misc
@@ -123,7 +123,7 @@ public class Q10292_SecretGarden extends Quest
 					addExpAndSp(player, player.getLevel() < MAX_LEVEL ? (ExperienceData.getInstance().getExpForLevel(MAX_LEVEL) + 100) - player.getExp() : 0, 135000);
 					giveItems(player, TRAVELER_AGATHION_SUMMON_BRACELET);
 					giveItems(player, TRAVELER_AGATHION_GRIFFIN);
-					giveItems(player, SCROLL_ENCHANT_ADEN_WEAPON);
+					// giveItems(player, SCROLL_ENCHANT_ADEN_WEAPON);
 					qs.exitQuest(false, true);
 					htmltext = event;
 					break;

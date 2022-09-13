@@ -29,7 +29,7 @@ import org.l2jmobius.gameserver.model.quest.QuestState;
 import org.l2jmobius.gameserver.network.NpcStringId;
 import org.l2jmobius.gameserver.network.serverpackets.ExShowScreenMessage;
 
-import quests.Q10295_RespectForGraves.Q10295_RespectForGraves;
+//import quests.Q10295_RespectForGraves.Q10295_RespectForGraves;
 
 /**
  * @author quangnguyen
@@ -60,7 +60,7 @@ public class Q10296_LetsPayRespectsToOurFallenBrethren extends Quest
 	private static final ItemHolder SPIRIT_ORE = new ItemHolder(3031, 450);
 	// Misc
 	private static final int MIN_LEVEL = 52;
-	private static final int MAX_LEVEL = 56;
+	private static final int MAX_LEVEL = 70;
 	private static final String KILL_COUNT_VAR = "KillCount";
 	
 	public Q10296_LetsPayRespectsToOurFallenBrethren()
@@ -71,7 +71,7 @@ public class Q10296_LetsPayRespectsToOurFallenBrethren extends Quest
 		addKillId(ACHER_OF_DESTRUCTION, GRAVEYARD_LICH, DISMAL_POLE, GRAVEYARD_PREDATOR, DOOM_KNIGHT, DOOM_SCOUT, DOOM_SERVANT, DOOM_GUARD, DOOM_ARCHER, DOOM_TROOPER, DOOM_WARRIOR, GUARD_BUTCHER);
 		addCondMinLevel(MIN_LEVEL, "no_lvl.html");
 		addCondMaxLevel(MAX_LEVEL, "no_lvl.html");
-		addCondCompletedQuest(Q10295_RespectForGraves.class.getSimpleName(), "no_lvl.html");
+		// addCondCompletedQuest(Q10295_RespectForGraves.class.getSimpleName(), "no_lvl.html");
 		setQuestNameNpcStringId(NpcStringId.LV_52_56_PAY_RESPECTS_TO_FALLEN_BRETHREN);
 	}
 	
@@ -140,7 +140,7 @@ public class Q10296_LetsPayRespectsToOurFallenBrethren extends Quest
 			if (qs.isCond(1))
 			{
 				final int killCount = qs.getInt(KILL_COUNT_VAR) + 1;
-				if ((killCount < 400) && (player.getLevel() < 58))
+				if (killCount < 400)
 				{
 					htmltext = "30857-03.html";
 				}
@@ -193,7 +193,7 @@ public class Q10296_LetsPayRespectsToOurFallenBrethren extends Quest
 		{
 			final Set<NpcLogListHolder> holder = new HashSet<>();
 			holder.add(new NpcLogListHolder(NpcStringId.KILL_MONSTERS_IN_THE_FIELDS_OF_MASSACRE_2.getId(), true, qs.getInt(KILL_COUNT_VAR)));
-			holder.add(new NpcLogListHolder(NpcStringId.LEVEL_58_ACCOMPLISHED, player.getLevel() > 57 ? 1 : 0));
+			holder.add(new NpcLogListHolder(NpcStringId.LEVEL_58_ACCOMPLISHED, player.getLevel() > 50 ? 1 : 0));
 			return holder;
 		}
 		return super.getNpcLogList(player);

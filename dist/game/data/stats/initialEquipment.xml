@@ -8,6 +8,7 @@
 		<item id="1146" count="1" equipped="true" /> <!-- Squire's Shirt -->
 		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Human Mystic -->
 	<equipment classId="10">
@@ -15,6 +16,7 @@
 		<item id="425" count="1" equipped="true" /> <!-- Apprentice's Tunic -->
 		<item id="461" count="1" equipped="true" /> <!-- Apprentice's Stockings -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Elven Fighter -->
 	<equipment classId="18">
@@ -24,6 +26,7 @@
 		<item id="1146" count="1" equipped="true" /> <!-- Squire's Shirt -->
 		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Elven Mystic -->
 	<equipment classId="25">
@@ -31,6 +34,7 @@
 		<item id="425" count="1" equipped="true" /> <!-- Apprentice's Tunic -->
 		<item id="461" count="1" equipped="true" /> <!-- Apprentice's Stockings -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Dark Fighter -->
 	<equipment classId="31">
@@ -40,6 +44,7 @@
 		<item id="1146" count="1" equipped="true" /> <!-- Squire's Shirt -->
 		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Dark Mystic -->
 	<equipment classId="38">
@@ -47,6 +52,7 @@
 		<item id="425" count="1" equipped="true" /> <!-- Apprentice's Tunic -->
 		<item id="461" count="1" equipped="true" /> <!-- Apprentice's Stockings -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Orc Fighter -->
 	<equipment classId="44">
@@ -55,6 +61,7 @@
 		<item id="1146" count="1" equipped="true" /> <!-- Squire's Shirt -->
 		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Orc Mystic -->
 	<equipment classId="49">
@@ -62,6 +69,7 @@
 		<item id="425" count="1" equipped="true" /> <!-- Apprentice's Tunic -->
 		<item id="461" count="1" equipped="true" /> <!-- Apprentice's Stockings -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Dwarf Fighter -->
 	<equipment classId="53">
@@ -70,6 +78,7 @@
 		<item id="1146" count="1" equipped="true" /> <!-- Squire's Shirt -->
 		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Jin Kamael Soldier -->
 	<equipment classId="192">
@@ -78,6 +87,7 @@
 		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
 		<item id="91949" count="1" equipped="true" /> <!-- Novice Warrior's Rapier -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Human Death Knight -->
 	<equipment classId="196">
@@ -85,6 +95,7 @@
 		<item id="1146" count="1" equipped="true" /> <!-- Squire's Shirt -->
 		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Elf Death Knight -->
 	<equipment classId="200">
@@ -92,6 +103,7 @@
 		<item id="1146" count="1" equipped="true" /> <!-- Squire's Shirt -->
 		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Dark Elf Death Knight -->
 	<equipment classId="204">
@@ -99,6 +111,7 @@
 		<item id="1146" count="1" equipped="true" /> <!-- Squire's Shirt -->
 		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Sylph Gunner -->
 	<equipment classId="208">
@@ -107,6 +120,7 @@
 		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
 		<item id="94891" count="1" /> <!-- No-grade Elemental Orb -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 	<!-- Orc Lancer -->
 	<equipment classId="217">
@@ -114,5 +128,6 @@
 		<item id="1146" count="1" equipped="true" /> <!-- Squire's Shirt -->
 		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+		<item id="95642" count="1" /> <!-- Kit: Vanguard Rider Adventure Lv. 1 -->
 	</equipment>
 </list>

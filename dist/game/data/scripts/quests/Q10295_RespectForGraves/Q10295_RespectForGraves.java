@@ -60,7 +60,7 @@ public class Q10295_RespectForGraves extends Quest
 	// Misc
 	private static final String KILL_COUNT_VAR = "KillCount";
 	private static final int MIN_LEVEL = 45;
-	private static final int MAX_LEVEL = 52;
+	private static final int MAX_LEVEL = 70;
 	
 	public Q10295_RespectForGraves()
 	{
@@ -187,7 +187,7 @@ public class Q10295_RespectForGraves extends Quest
 		{
 			final Set<NpcLogListHolder> holder = new HashSet<>();
 			holder.add(new NpcLogListHolder(NpcStringId.KILL_MONSTERS_IN_THE_CEMETERY_2.getId(), true, qs.getInt(KILL_COUNT_VAR)));
-			holder.add(new NpcLogListHolder(NpcStringId.LEVEL_52_ACCOMPLISHED, player.getLevel() > 51 ? 1 : 0));
+			holder.add(new NpcLogListHolder(NpcStringId.LEVEL_52_ACCOMPLISHED, player.getLevel() > 45 ? 1 : 0));
 			return holder;
 		}
 		return super.getNpcLogList(player);
@@ -212,7 +212,7 @@ public class Q10295_RespectForGraves extends Quest
 	
 	private boolean allConditionsMet(Player player, QuestState qs)
 	{
-		return (qs != null) && qs.isCond(1) && (player.getLevel() > 51) && (qs.getInt(KILL_COUNT_VAR) >= 300);
+		return (qs != null) && qs.isCond(1) && (player.getLevel() > 45) && (qs.getInt(KILL_COUNT_VAR) >= 300);
 	}
 	
 	private void prepareToFinishQuest(Player killer, QuestState qs)
