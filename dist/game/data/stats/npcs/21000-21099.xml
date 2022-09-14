@@ -1,24 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="21000" level="54" type="Monster" name="Soul of Ruins" element="FIRE">
-		<!-- L2wiki: https://l2wiki.com/classic/Soul_of_Ruins -->
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
-			<skill name="DDMagic" id="4002" level="5" /> <!-- NPC HP Drain -->
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic" id="4002" level="5" /> <!-- NPC HP Drain -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="2982" sp="183" attributeExp="10" />
+		<acquire exp="3667" sp="163" attributeExp="10" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1710.71326882197" hpRegen="6.5" mp="861" mpRegen="2.4" />
+			<vitals hp="2879.893" hpRegen="6.5" mp="861" mpRegen="2.4" />
 			<attack physical="370.68904" magical="253.13256" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="218.89589" magical="160.17851" />
 			<speed>
@@ -31,24 +28,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="4" /> <!-- HP High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
-			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="350" clanHelpRange="300">
-			<clanList>
-				<clan>UNDEAD</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="8" />
 			<height normal="22" />
@@ -83,7 +67,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21001" level="55" type="Monster" name="Archer of Destruction" element="EARTH">
+	<npc id="21001" level="54" type="Monster" name="Archer of Destruction" element="EARTH">
 		<parameters>
 			<param name="MoveAroundSocial" value="157" />
 			<param name="MoveAroundSocial1" value="157" />
@@ -93,14 +77,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="PhysicalSpecial" id="4120" level="5" />
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="282" /> <!-- Elemental Bow -->
-		<acquire exp="3281" sp="192" attributeExp="11" />
+		<acquire exp="4170" sp="184" attributeExp="11" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1764.82565992283" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
+			<vitals hp="3512.744" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
 			<attack physical="388.11142" magical="265.02979" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="223.6362" magical="163.64727" />
 			<speed>
@@ -113,28 +96,13 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="5" /> <!-- HP High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4120" level="5" /> <!-- Stun -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai type="ARCHER" clanHelpRange="300" aggroRange="450">
-			<clanList>
-				<clan>UNDEAD</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="11" />
 			<height normal="27" />
@@ -172,7 +140,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21002" level="56" type="Monster" name="Doom Scout" element="EARTH">
+	<npc id="21002" level="54" type="Monster" name="Doom Scout" element="EARTH">
 		<parameters>
 			<param name="MoveAroundSocial" value="80" />
 			<param name="MoveAroundSocial1" value="80" />
@@ -182,14 +150,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="Buff" id="4074" level="2" />
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="242" lhand="2496" /> <!-- Soulfire Dirk / Dwarven Chain Shield -->
-		<acquire exp="3398" sp="199" attributeExp="12" />
+		<acquire exp="4170" sp="184" attributeExp="12" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1819.28596798157" hpRegen="6.5" mp="918.8" mpRegen="2.4" />
+			<vitals hp="3512.744" hpRegen="6.5" mp="918.8" mpRegen="2.4" />
 			<attack physical="405.96455" magical="277.22116" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="228.40135" magical="167.1342" />
 			<speed>
@@ -202,18 +169,8 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="5" /> <!-- HP High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4074" level="2" /> <!-- NPC Haste -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -257,26 +214,22 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21003" level="57" type="Monster" name="Graveyard Lich" element="EARTH">
+	<npc id="21003" level="55" type="Monster" name="Graveyard Lich" element="EARTH">
 		<parameters>
 			<param name="MoveAroundSocial" value="57" />
 			<param name="MoveAroundSocial1" value="57" />
 			<param name="MoveAroundSocial2" value="57" />
-			<skill name="CheckMagic" id="4035" level="5" />
-			<skill name="CheckMagic1" id="4046" level="5" />
 			<param name="SoulShot" value="200" />
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="DDMagic" id="4002" level="5" />
-			<skill name="SleepMagic" id="4046" level="5" />
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="3516" sp="409" attributeExp="13" />
+		<acquire exp="4417" sp="380" attributeExp="13" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1874.02972214133" hpRegen="6.5" mp="948" mpRegen="2.4" />
+			<vitals hp="3653.254" hpRegen="6.5" mp="948" mpRegen="2.4" />
 			<attack physical="424.23295" magical="289.69611" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="233.18839" magical="170.63714" />
 			<speed>
@@ -289,28 +242,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="5" /> <!-- HP High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4002" level="5" /> <!-- NPC HP Drain -->
-			<skill id="4035" level="5" /> <!-- Poison -->
-			<skill id="4046" level="5" /> <!-- Sleep -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="450">
-			<clanList>
-				<clan>UNDEAD</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="15" />
 			<height normal="28" />
@@ -346,7 +282,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21004" level="58" type="Monster" name="Dismal Oak" element="EARTH">
+	<npc id="21004" level="55" type="Monster" name="Dismal Oak" element="EARTH">
 		<parameters>
 			<param name="MoveAroundSocial" value="100" />
 			<param name="MoveAroundSocial1" value="100" />
@@ -356,13 +292,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="Buff" id="4028" level="3" />
 		</parameters>
 		<race>PLANT</race>
 		<sex>MALE</sex>
-		<acquire exp="3637" sp="211" attributeExp="13" />
+		<acquire exp="4417" sp="190" attributeExp="13" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1928.99015211091" hpRegen="6.5" mp="977.4" mpRegen="2.4" />
+			<vitals hp="3653.254" hpRegen="6.5" mp="977.4" mpRegen="2.4" />
 			<attack physical="442.8992" magical="302.44274" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="80" distance="80" width="120" />
 			<defence physical="237.99429" magical="174.1539" />
 			<speed>
@@ -375,19 +310,8 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="4408" level="5" /> <!-- HP High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="13" /> <!-- Two-handed Sword -->
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4277" level="5" /> <!-- Infection Resistance -->
-			<skill id="4071" level="5" /> <!-- Bow Resistance -->
 			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4028" level="3" /> <!-- NPC Might -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -428,7 +352,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21005" level="59" type="Monster" name="Graveyard Predator" element="EARTH">
+	<npc id="21005" level="55" type="Monster" name="Graveyard Predator" element="EARTH">
 		<parameters>
 			<param name="MoveAroundSocial" value="82" />
 			<param name="MoveAroundSocial1" value="82" />
@@ -438,13 +362,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="Buff" id="4074" level="2" />
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="3767" sp="221" attributeExp="14" />
+		<acquire exp="4417" sp="191" attributeExp="14" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1984.09830322793" hpRegen="6.5" mp="1007" mpRegen="2.4" />
+			<vitals hp="3653.254" hpRegen="6.5" mp="1007" mpRegen="2.4" />
 			<attack physical="461.94387" magical="315.44778" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="242.81593" magical="177.68216" />
 			<speed>
@@ -457,18 +380,8 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="5" /> <!-- HP High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4074" level="2" /> <!-- NPC Haste -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -505,7 +418,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21006" level="60" type="Monster" name="Doom Servant" element="EARTH">
+	<npc id="21006" level="56" type="Monster" name="Doom Servant" element="EARTH">
 		<parameters>
 			<param name="MoveAroundSocial" value="130" />
 			<param name="MoveAroundSocial1" value="130" />
@@ -515,15 +428,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic1" id="4100" level="6" />
-			<skill name="DDMagic2" id="4002" level="6" />
-			<skill name="DeBuff" id="4038" level="5" />
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="3896" sp="228" attributeExp="15" />
+		<acquire exp="4641" sp="198" attributeExp="15" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
+			<vitals hp="3799.385" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
 			<attack physical="481.34551" magical="328.69659" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="247.65008" magical="181.21958" />
 			<speed>
@@ -536,21 +446,9 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="5" /> <!-- HP High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4002" level="6" /> <!-- NPC HP Drain -->
-			<skill id="4038" level="5" /> <!-- Decrease Atk. Spd. -->
-			<skill id="4100" level="6" /> <!-- NPC Prominence -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -588,7 +486,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21007" level="61" type="Monster" name="Doom Guard" element="EARTH">
+	<npc id="21007" level="56" type="Monster" name="Doom Guard" element="EARTH">
 		<parameters>
 			<param name="MoveAroundSocial" value="130" />
 			<param name="MoveAroundSocial1" value="130" />
@@ -598,13 +496,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DeBuff" id="4036" level="6" />
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="4252" sp="236" attributeExp="17" />
+		<acquire exp="4641" sp="198" attributeExp="16" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2094.47178903934" hpRegen="7.5" mp="1066.8" mpRegen="2.7" />
+			<vitals hp="3799.385" hpRegen="7.5" mp="1066.8" mpRegen="2.7" />
 			<attack physical="501.08068" magical="342.17315" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="252.49346" magical="184.76376" />
 			<speed>
@@ -617,18 +514,9 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="6" /> <!-- HP Very High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4036" level="6" /> <!-- Poison -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -668,7 +556,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21008" level="62" type="Monster" name="Doom Archer" element="EARTH">
+	<npc id="21008" level="56" type="Monster" name="Doom Archer" element="EARTH">
 		<parameters>
 			<param name="MoveAroundSocial" value="157" />
 			<param name="MoveAroundSocial1" value="157" />
@@ -678,14 +566,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4120" level="6" />
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="286" /> <!-- Eminence Bow -->
-		<acquire exp="4378" sp="243" attributeExp="18" />
+		<acquire exp="4641" sp="198" attributeExp="16" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2149.58946769827" hpRegen="7.5" mp="1097" mpRegen="2.7" />
+			<vitals hp="3799.385" hpRegen="7.5" mp="1097" mpRegen="2.7" />
 			<attack physical="521.12391" magical="355.86007" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="257.34267" magical="188.3122" />
 			<speed>
@@ -698,27 +585,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="6" /> <!-- HP Very High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4120" level="6" /> <!-- Stun -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clanList>
-				<clan>DOOM</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="11" />
 			<height normal="27" />
@@ -752,7 +624,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21009" level="63" type="Monster" name="Doom Trooper" element="EARTH">
+	<npc id="21009" level="57" type="Monster" name="Doom Trooper" element="EARTH">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -762,16 +634,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="SelfRangeDDMagic" id="4072" level="6" />
-			<skill name="SelfBuff" id="4091" level="1" />
-			<skill name="PhysicalSpecial" id="4244" level="6" />
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="301" /> <!-- Scorpion -->
-		<acquire exp="4510" sp="251" attributeExp="19" />
+		<acquire exp="4971" sp="205" attributeExp="19" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2204.55985377975" hpRegen="7.5" mp="1127.4" mpRegen="2.7" />
+			<vitals hp="3951.36" hpRegen="7.5" mp="1127.4" mpRegen="2.7" />
 			<attack physical="541.44774" magical="369.73862" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="80" distance="80" width="120" />
 			<defence physical="262.19426" magical="191.86238" />
 			<speed>
@@ -784,20 +653,8 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="6" /> <!-- HP Very High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="13" /> <!-- Two-handed Sword -->
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4072" level="6" /> <!-- Stun -->
-			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
-			<skill id="4244" level="6" /> <!-- NPC Wild Sweep -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -841,7 +698,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21010" level="64" type="Monster" name="Doom Warrior" element="EARTH">
+	<npc id="21010" level="57" type="Monster" name="Doom Warrior" element="EARTH">
 		<parameters>
 			<param name="MoveAroundSocial" value="215" />
 			<param name="MoveAroundSocial1" value="215" />
@@ -851,14 +708,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Buff" id="4030" level="3" />
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="71" /> <!-- Flamberge -->
-		<acquire exp="4649" sp="259" attributeExp="20" />
+		<acquire exp="4971" sp="205" attributeExp="18" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2259.30514025271" hpRegen="7.5" mp="1158" mpRegen="2.7" />
+			<vitals hp="3951.36" hpRegen="7.5" mp="1158" mpRegen="2.7" />
 			<attack physical="562.02275" magical="383.78868" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="267.04468" magical="195.41171" />
 			<speed>
@@ -871,27 +727,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="6" /> <!-- HP Very High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4071" level="5" /> <!-- Bow Resistance -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4030" level="3" /> <!-- NPC Clan Might -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="450">
-			<clanList>
-				<clan>DOOM</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="10" />
 			<height normal="25" />

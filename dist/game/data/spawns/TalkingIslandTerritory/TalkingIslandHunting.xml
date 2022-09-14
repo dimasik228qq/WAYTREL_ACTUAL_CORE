@@ -75,7 +75,4 @@
 			<npc id="32478" x="-81920" y="243360" z="-3728" heading="38440" respawnTime="10sec" /> <!-- Game Assistant - Special -->
 		</group>
 	</spawn>
-	<spawn>
-		<npc id="20120" count="20" respawnTime="12sec" respawnRandom="12sec" chaseRange="100" /> <!-- Wolf -->
-	</spawn>
 </list>

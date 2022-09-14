@@ -4580,7 +4580,7 @@
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="20659" level="67" type="Monster" name="Graveyard Wanderer" element="WATER">
+	<npc id="20659" level="65" type="Monster" name="Graveyard Wanderer" element="WATER">
 		<parameters>
 			<param name="MoveAroundSocial" value="120" />
 			<param name="MoveAroundSocial1" value="120" />
@@ -4590,13 +4590,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="DDMagicSlow" id="4248" level="4" />
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="5688" sp="269" attributeExp="25" />
+		<acquire exp="6211" sp="252" attributeExp="24" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2421.39403210377" hpRegen="7.5" mp="1251" mpRegen="2.7" />
+			<vitals hp="5569.425" hpRegen="7.5" mp="1251" mpRegen="2.7" />
 			<attack physical="624.93199" magical="426.74754" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="281.55251" magical="206.02791" />
 			<speed>
@@ -4609,24 +4608,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="4071" level="5" /> <!-- Bow Resistance -->
-			<skill id="4284" level="5" /> <!-- Infection Resistance -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
 			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4248" level="4" /> <!-- NPC HP Drain - Slow -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="450" />
 		<collision>
 			<radius normal="13" />
 			<height normal="21" />
@@ -4658,7 +4644,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20660" level="67" type="Monster" name="Archer of Greed" element="WATER">
+	<npc id="20660" level="65" type="Monster" name="Archer of Greed" element="WATER">
 		<parameters>
 			<param name="MoveAroundSocial" value="157" />
 			<param name="MoveAroundSocial1" value="157" />
@@ -4668,14 +4654,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="PhysicalSpecial" id="4120" level="4" />
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="14" /> <!-- Bow -->
-		<acquire exp="5688" sp="228" attributeExp="25" />
+		<acquire exp="6211" sp="214" attributeExp="24" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2421.39403210377" hpRegen="7.5" mp="1251" mpRegen="2.7" />
+			<vitals hp="5569.425" hpRegen="7.5" mp="1251" mpRegen="2.7" />
 			<attack physical="624.93199" magical="426.74754" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="281.55251" magical="206.02791" />
 			<speed>
@@ -4688,27 +4673,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="9" /> <!-- Bow -->
 			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4120" level="4" /> <!-- Stun -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clanList>
-				<clan>ALL</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="11" />
 			<height normal="27" />
@@ -4746,7 +4715,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20661" level="68" type="Monster" name="Hatar Ratman Thief" element="WATER">
+	<npc id="20661" level="66" type="Monster" name="Hatar Ratman Thief" element="WATER">
 		<parameters>
 			<param name="MoveAroundSocial" value="100" />
 			<param name="MoveAroundSocial1" value="100" />
@@ -4761,9 +4730,9 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="946" /> <!-- Skeleton Dagger -->
-		<acquire exp="4181" sp="234" attributeExp="26" />
+		<acquire exp="4574" sp="220" attributeExp="26" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2474.43773844242" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
+			<vitals hp="5736.508" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
 			<attack physical="646.17968" magical="441.25696" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="286.3615" magical="209.54692" />
 			<speed>
@@ -4776,27 +4745,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 			<skill id="4067" level="4" /> <!-- NPC Mortal Blow -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="450">
-			<clanList>
-				<clan>HATAR</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="14" />
 			<height normal="25" />
@@ -4832,7 +4786,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20662" level="68" type="Monster" name="Hatar Ratman Boss" element="WATER">
+	<npc id="20662" level="66" type="Monster" name="Hatar Ratman Boss" element="WATER">
 		<parameters>
 			<param name="MoveAroundSocial" value="100" />
 			<param name="MoveAroundSocial1" value="100" />
@@ -4847,9 +4801,9 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="221" /> <!-- Assassin Knife -->
-		<acquire exp="5859" sp="234" attributeExp="26" />
+		<acquire exp="6447" sp="220" attributeExp="26" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2474.43773844242" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
+			<vitals hp="5736.508" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
 			<attack physical="646.17968" magical="441.25696" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="286.3615" magical="209.54692" />
 			<speed>
@@ -4862,27 +4816,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 			<skill id="4067" level="4" /> <!-- NPC Mortal Blow -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="450">
-			<clanList>
-				<clan>HATAR</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="14" />
 			<height normal="25" />
@@ -4911,7 +4850,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20663" level="69" type="Monster" name="Hatar Hanishee" element="WATER">
+	<npc id="20663" level="67" type="Monster" name="Hatar Hanishee" element="WATER">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -4921,13 +4860,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="HoldMagic" id="4047" level="4" />
 		</parameters>
 		<race>BEAST</race>
 		<sex>FEMALE</sex>
-		<acquire exp="6033" sp="241" attributeExp="28" />
+		<acquire exp="6734" sp="227" attributeExp="28" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2526.85161916379" hpRegen="7.5" mp="1314" mpRegen="2.7" />
+			<vitals hp="5908.603" hpRegen="7.5" mp="1314" mpRegen="2.7" />
 			<attack physical="667.50361" magical="455.81844" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="291.15063" magical="213.05139" />
 			<speed>
@@ -4940,27 +4878,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4047" level="4" /> <!-- Hold -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="450">
-			<clanList>
-				<clan>HATAR</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="10" />
 			<height normal="25" />
@@ -4989,7 +4911,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20664" level="70" type="Monster" name="Deprive" element="WATER">
+	<npc id="20664" level="67" type="Monster" name="Deprive" element="WATER">
 		<parameters>
 			<param name="MoveAroundSocial" value="40" />
 			<param name="MoveAroundSocial1" value="40" />
@@ -4999,13 +4921,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="DDMagic" id="4039" level="5" />
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="6209" sp="248" attributeExp="30" />
+		<acquire exp="6734" sp="248" attributeExp="30" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2578.55294197919" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<vitals hp="5908.603" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
 			<attack physical="688.86373" magical="470.40463" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="295.91597" magical="216.53847" />
 			<speed>
@@ -5018,23 +4939,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4039" level="5" /> <!-- NPC MP Drain -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
 		<collision>
 			<radius normal="15" />
 			<height normal="30" />
@@ -5053,7 +4962,8 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20665" level="71" type="Monster" name="Taik Orc Elder" element="WATER">
+	<npc id="20665" level="68" type="Monster" name="Taik Orc Elder" element="WATER">
+	<!-- Check Drop https://l2central.info/essence/info/npcs/20665.html -->
 		<parameters>
 			<param name="MoveAroundSocial" value="90" />
 			<param name="MoveAroundSocial1" value="65" />
@@ -5063,14 +4973,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="PhysicalSpecial" id="4032" level="5" />
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="69" /> <!-- Bastard Sword -->
-		<acquire exp="6387" sp="253" attributeExp="32" />
+		<acquire exp="7121" sp="232" attributeExp="31" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2629.45885739491" hpRegen="8.5" mp="1377.8" mpRegen="3" />
+			<vitals hp="6085.861" hpRegen="8.5" mp="1377.8" mpRegen="3" />
 			<attack physical="710.2185" magical="484.98717" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="300.65359" magical="220.00525" />
 			<speed>
@@ -5083,27 +4992,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4032" level="5" /> <!-- NPC Strike -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="450">
-			<clanList>
-				<clan>ORC</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="12" />
 			<height normal="29" />
@@ -5111,7 +5004,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="329" max="769" chance="100" /> <!-- Adena -->
+					<item id="57" min="266" max="294" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0013">
 					<item id="92988" min="1" max="1" chance="97.8367" /> <!-- Orcish Treasure - Sealed -->
@@ -5130,15 +5023,6 @@
 					<item id="92997" min="1" max="1" chance="7.427" /> <!-- Old Unknown Resources - Sealed -->
 					<item id="92998" min="1" max="1" chance="3.7135" /> <!-- Old Shining Resources - Sealed -->
 					<item id="92999" min="1" max="1" chance="0.7427" /> <!-- Old High-grade Resources - Sealed -->
-					<!-- <item id="3044" min="1" max="1" chance="0.0248" /> Spellbook: Horror - Not Available -->
-					<!-- <item id="3089" min="1" max="1" chance="0.0248" /> Spellbook: Tempest - Not Available -->
-					<!-- <item id="6398" min="1" max="1" chance="0.0248" /> Spellbook: Body of Avatar - Not Available -->
-					<!-- <item id="3079" min="1" max="1" chance="0.0248" /> Spellbook: Cancel - Not Available -->
-					<!-- <item id="3942" min="1" max="1" chance="0.0248" /> Spellbook: Party Return - Not Available -->
-					<!-- <item id="3109" min="1" max="1" chance="0.0248" /> Amulet: Seal of Silence - Not Available -->
-					<!-- <item id="3111" min="1" max="1" chance="0.0248" /> Amulet: Seal of Suspension - Not Available -->
-					<!-- <item id="6351" min="1" max="1" chance="0.0248" /> Amulet: Ritual of Life - Not Available -->
-					<!-- <item id="3940" min="1" max="1" chance="0.0246" /> Blueprint: Summon Siege Golem - Not Available -->
 				</group>
 			</drop>
 			<spoil>
@@ -5148,8 +5032,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20666" level="52" type="Monster" name="Taik Orc Watchman" element="FIRE">
-		<!-- L2wiki: https://l2wiki.com/classic/Taik_Orc_Watchman -->
+	<npc id="20666" level="46" type="Monster" name="Taik Orc Watchman" element="FIRE">
 		<parameters>
 			<param name="MoveAroundSocial" value="90" />
 			<param name="MoveAroundSocial1" value="65" />
@@ -5159,14 +5042,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4073" level="5" /> <!-- Stun -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="72" /> <!-- rhand: Stormbringer -->
-		<acquire exp="2610" sp="171" attributeExp="9" />
+		<acquire exp="2772" sp="134" attributeExp="8" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1603.77800520503" hpRegen="6.5" mp="804" mpRegen="2.4" />
+			<vitals hp="2354.585" hpRegen="6.5" mp="804" mpRegen="2.4" />
 			<attack physical="337.18867" magical="230.25615" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="209.50106" magical="153.30378" />
 			<speed>
@@ -5179,24 +5061,19 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="4" /> <!-- HP High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<!--<skill id="4408" level="4" />  HP High -->
+			<!--<skill id="4409" level="1" />  MP Increase (1x) -->
+			<!--<skill id="4410" level="12" />  Slightly Strong P. Atk. -->
+			<!--<skill id="4411" level="12" />  Slightly Strong M. Atk. -->
+			<!--<skill id="4412" level="10" />  Slightly Weak P. Def. -->
+			<!--<skill id="4413" level="11" />  Average M. Def. -->
+			<!--<skill id="4414" level="2" />  Standard Type -->
+			<!--<skill id="4415" level="3" />  One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="1000" clanHelpRange="0" isAggressive="false">
-			<clanList>
-				<clan>ORC</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="12" />
 			<height normal="29" />
@@ -5237,7 +5114,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20667" level="72" type="Monster" name="Farcran" element="WATER">
+	<npc id="20667" level="68" type="Monster" name="Farcran" element="WATER">
 		<parameters>
 			<param name="MoveAroundSocial" value="60" />
 			<param name="MoveAroundSocial1" value="60" />
@@ -5247,13 +5124,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="PhysicalSpecial" id="4073" level="5" />
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="6575" sp="546" attributeExp="34" />
+		<acquire exp="7121" sp="486" attributeExp="32" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2679.48661343362" hpRegen="8.5" mp="1410" mpRegen="3" />
+			<vitals hp="6085.861" hpRegen="8.5" mp="1410" mpRegen="3" />
 			<attack physical="731.52506" magical="499.53679" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="305.35947" magical="223.44881" />
 			<speed>
@@ -5266,25 +5142,13 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4073" level="5" /> <!-- Stun -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="450" />
 		<collision>
 			<radius normal="22.8" />
 			<height normal="43.8" />
@@ -5313,7 +5177,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20668" level="54" type="Monster" name="Grave Guard" element="FIRE">
+	<npc id="20668" level="46" type="Monster" name="Grave Guard" element="FIRE">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -5323,13 +5187,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic" id="4078" level="5" />
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="2820" sp="183" attributeExp="10" />
+		<acquire exp="2772" sp="133" attributeExp="9" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1710.71326882197" hpRegen="6.5" mp="861" mpRegen="2.4" />
+			<vitals hp="2354.585" hpRegen="6.5" mp="861" mpRegen="2.4" />
 			<attack physical="370.68904" magical="253.13256" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="218.89589" magical="160.17851" />
 			<speed>
@@ -5342,20 +5205,19 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="4" /> <!-- HP High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
-			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
+			<!--<skill id="4408" level="4" />  HP High -->
+			<!--<skill id="4409" level="1" />  MP Increase (1x) -->
+			<!--<skill id="4410" level="10" />  Slightly Weak P. Atk. -->
+			<!--<skill id="4411" level="10" />  Slightly Weak M. Atk. -->
+			<!--<skill id="4412" level="12" />  Slightly Strong P. Def. -->
+			<!--<skill id="4413" level="12" />  Slightly Strong M. Def. -->
+			<!--<skill id="4414" level="2" />  Standard Type -->
+			<!--<skill id="4415" level="3" />  One-handed Sword -->
+			<skill id="48044" level="1" /> <!--Fire Attribute Monster -->
+			<!--<skill id="4444" level="2" />  Greater Bow Resistance -->
+			<!--<skill id="4273" level="3" />  Dagger Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4078" level="5" /> <!-- NPC Flamestrike -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -5401,8 +5263,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20669" level="55" type="Monster" name="Taik Orc Supply Officer" element="FIRE">
-		<!-- L2wiki: https://l2wiki.com/classic/Taik_Orc_Supply_Officer -->
+	<npc id="20669" level="47" type="Monster" name="Taik Orc Supply Officer" element="FIRE">
 		<parameters>
 			<param name="MoveAroundSocial" value="90" />
 			<param name="MoveAroundSocial1" value="65" />
@@ -5412,14 +5273,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4073" level="5" /> <!-- Stun -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="75" /> <!-- rhand: Caliburs -->
 		<acquire exp="2919" sp="192" attributeExp="11" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1764.82565992283" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
+			<vitals hp="2416.015" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
 			<attack physical="388.11142" magical="265.02979" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="223.6362" magical="163.64727" />
 			<speed>
@@ -5432,24 +5292,19 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="4" /> <!-- HP High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<!--<skill id="4408" level="4" />  HP High -->
+			<!--<skill id="4409" level="1" />  MP Increase (1x) -->
+			<!--<skill id="4410" level="12" />  Slightly Strong P. Atk. -->
+			<!--<skill id="4411" level="12" />  Slightly Strong M. Atk. -->
+			<!--<skill id="4412" level="10" />  Slightly Weak P. Def. -->
+			<!--<skill id="4413" level="11" />  Average M. Def. -->
+			<!--<skill id="4414" level="2" />  Standard Type -->
+			<!--<skill id="4415" level="3" />  One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="500" clanHelpRange="300">
-			<clanList>
-				<clan>ORC</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="12" grown="14" />
 			<height normal="24" grown="28.8" />
@@ -5792,7 +5647,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20674" level="65" type="Monster" name="Doom Knight" element="EARTH">
+	<npc id="20674" level="54" type="Monster" name="Doom Knight" element="EARTH">
 		<parameters>
 			<param name="MoveAroundSocial" value="80" />
 			<param name="MoveAroundSocial1" value="80" />
@@ -5804,14 +5659,13 @@
 			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfRangeDDMagic" id="4101" level="6" />
 			<skill name="SelfBuff" id="4090" level="1" />
-			<skill name="PhysicalSpecial" id="4073" level="6" />
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="1472" /> <!-- Dreadbane -->
-		<acquire exp="4785" sp="992" attributeExp="22" />
+		<acquire exp="4170" sp="684" attributeExp="18" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2313.74622796964" hpRegen="7.5" mp="1188.8" mpRegen="2.7" />
+			<vitals hp="3512.744" hpRegen="7.5" mp="1188.8" mpRegen="2.7" />
 			<attack physical="582.81759" magical="397.98887" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="271.89033" magical="198.95754" />
 			<speed>
@@ -5824,20 +5678,8 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="6" /> <!-- HP Very High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4073" level="6" /> <!-- Stun -->
-			<skill id="4090" level="1" /> <!-- NPC Wolf Spirit Totem -->
-			<skill id="4101" level="6" /> <!-- NPC Spinning Slash -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -5874,7 +5716,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-		<npc id="20675" level="50" type="Monster" name="Tairim" element="FIRE">
+		<npc id="20675" level="47" type="Monster" name="Tairim" element="FIRE">
 		<parameters>
 			<param name="MoveAroundSocial" value="82" />
 			<param name="MoveAroundSocial1" value="82" />
@@ -5884,13 +5726,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DeBuff" id="4098" level="6" />
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="2413" sp="157" attributeExp="8" />
+		<acquire exp="2938" sp="139" attributeExp="8" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1498.94623198693" hpRegen="5.5" mp="747.8" mpRegen="2.1" />
+			<vitals hp="2416.015" hpRegen="5.5" mp="747.8" mpRegen="2.1" />
 			<attack physical="305.54906" magical="208.6504" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="200.23844" magical="146.5258" />
 			<speed>
@@ -5903,25 +5744,19 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="3" /> <!-- HP Medium-High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
-			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4098" level="6" /> <!-- Silence -->
+			<!--<skill id="4408" level="3" />  HP Medium-High -->
+			<!--<skill id="4409" level="1" /> MP Increase (1x) -->
+			<!--<skill id="4410" level="10" /> Slightly Weak P. Atk. -->
+			<!--<skill id="4411" level="10" /> Slightly Weak M. Atk. -->
+			<!--<skill id="4412" level="12" /> Slightly Strong P. Def. -->
+			<!--<skill id="4413" level="12" /> Slightly Strong M. Def. -->
+			<!--<skill id="4414" level="2" /> Standard Type -->
+			<!--<skill id="4415" level="3" />  One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clanList>
-				<clan>ALL</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="13" />
 			<height normal="22" />
@@ -6113,8 +5948,7 @@
 			</drop>
 		</dropLists>
 	</npc>
-		<npc id="20678" level="53" type="Monster" name="Tortured Undead" element="FIRE">
-		<!-- Todo :Fix Me -->
+	<npc id="20678" level="48" type="Monster" name="Tortured Undead" element="FIRE">
 		<parameters>
 			<param name="MoveAroundSocial" value="82" />
 			<param name="MoveAroundSocial1" value="82" />
@@ -6124,13 +5958,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DeBuff" id="4098" level="6" />
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="2869" sp="355" attributeExp="10" />
+		<acquire exp="3087" sp="291" attributeExp="9" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1657.01086128246" hpRegen="6.5" mp="832.4" mpRegen="2.4" />
+			<vitals hp="2477.445" hpRegen="6.5" mp="832.4" mpRegen="2.4" />
 			<attack physical="353.71092" magical="241.5387" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="214.18326" magical="156.73001" />
 			<speed>
@@ -6143,25 +5976,19 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="4" /> <!-- HP High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4098" level="6" /> <!-- Silence -->
+			<!--<skill id="4408" level="4" />  HP High -->
+			<!--<skill id="4409" level="1" />  MP Increase (1x) -->
+			<!--<skill id="4410" level="12" />  Slightly Strong P. Atk. -->
+			<!--<skill id="4411" level="12" />  Slightly Strong M. Atk. -->
+			<!--<skill id="4412" level="10" />  Slightly Weak P. Def. -->
+			<!--<skill id="4413" level="11" />  Average M. Def. -->
+			<!--<skill id="4414" level="2" />  Standard Type -->
+			<!--<skill id="4415" level="3" />  One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="450" clanHelpRange="0" isAggressive="false">
-			<clanList>
-				<clan>ALL</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="30" grown="15.5" />
 			<height normal="40" grown="48.5" />
@@ -6351,7 +6178,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20681" level="60" type="Monster" name="Vanor Silenos" element="WIND">
+	<npc id="20681" level="59" type="Monster" name="Vanor Silenos" element="WIND">
 		<parameters>
 			<param name="MoveAroundSocial" value="100" />
 			<param name="MoveAroundSocial1" value="50" />
@@ -6362,14 +6189,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="Buff" id="4029" level="3" />
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="88" /> <!-- Morning Star -->
-		<acquire exp="4193" sp="182" attributeExp="15" />
+		<acquire exp="5152" sp="175" attributeExp="16" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
+			<vitals hp="4273.79" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
 			<attack physical="481.34551" magical="328.69659" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="247.65008" magical="181.21958" />
 			<speed>
@@ -6382,26 +6208,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="6" /> <!-- HP Very High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4029" level="3" /> <!-- NPC Shield -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="450">
-			<clanList>
-				<clan>SILENOS</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="13" />
 			<height normal="29" />
@@ -6438,7 +6249,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20682" level="61" type="Monster" name="Vanor Silenos Soldier" element="WIND">
+	<npc id="20682" level="60" type="Monster" name="Vanor Silenos Soldier" element="WIND">
 		<parameters>
 			<param name="MoveAroundSocial" value="100" />
 			<param name="MoveAroundSocial1" value="50" />
@@ -6448,14 +6259,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="Buff" id="4099" level="2" />
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="158" lhand="18" /> <!-- Tarbar / Leather Shield -->
-		<acquire exp="4320" sp="188" attributeExp="17" />
+		<acquire exp="5400" sp="181" attributeExp="17" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2094.47178903934" hpRegen="7.5" mp="1066.8" mpRegen="2.7" />
+			<vitals hp="4444.743" hpRegen="7.5" mp="1066.8" mpRegen="2.7" />
 			<attack physical="501.08068" magical="342.17315" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="252.49346" magical="184.76376" />
 			<speed>
@@ -6468,18 +6278,8 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="6" /> <!-- HP Very High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4099" level="2" /> <!-- NPC Berserk -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -6521,7 +6321,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20683" level="62" type="Monster" name="Vanor Silenos Scout" element="WIND">
+	<npc id="20683" level="60" type="Monster" name="Vanor Silenos Scout" element="WIND">
 		<parameters>
 			<param name="MoveAroundSocial" value="100" />
 			<param name="MoveAroundSocial1" value="50" />
@@ -6531,14 +6331,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="PhysicalSpecial" id="4032" level="4" />
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="5" /> <!-- Mace -->
-		<acquire exp="4448" sp="193" attributeExp="18" />
+		<acquire exp="5400" sp="180" attributeExp="18" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2149.58946769827" hpRegen="7.5" mp="1097" mpRegen="2.7" />
+			<vitals hp="4444.743" hpRegen="7.5" mp="1097" mpRegen="2.7" />
 			<attack physical="521.12391" magical="355.86007" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="257.34267" magical="188.3122" />
 			<speed>
@@ -6551,26 +6350,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="6" /> <!-- HP Very High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4032" level="4" /> <!-- NPC Strike -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="450" clanHelpRange="400" isAggressive="true">
-			<clanList>
-				<clan>SILENOS</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="13" />
 			<height normal="29" />
@@ -6613,7 +6397,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20684" level="63" type="Monster" name="Vanor Silenos Warrior" element="WIND">
+	<npc id="20684" level="61" type="Monster" name="Vanor Silenos Warrior" element="WIND">
 		<parameters>
 			<param name="MoveAroundSocial" value="60" />
 			<param name="MoveAroundSocial1" value="50" />
@@ -6623,14 +6407,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="PhysicalSpecial" id="4073" level="4" />
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="160" /> <!-- Battle Axe -->
-		<acquire exp="4582" sp="201" attributeExp="19" />
+		<acquire exp="5619" sp="188" attributeExp="19" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2204.55985377975" hpRegen="7.5" mp="1127.4" mpRegen="2.7" />
+			<vitals hp="4622.532" hpRegen="7.5" mp="1127.4" mpRegen="2.7" />
 			<attack physical="541.44774" magical="369.73862" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="262.19426" magical="191.86238" />
 			<speed>
@@ -6643,19 +6426,9 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="6" /> <!-- HP Very High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 			<skill id="4093" level="1" /> <!-- Evasion -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4073" level="4" /> <!-- Stun -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -6696,7 +6469,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20685" level="64" type="Monster" name="Vanor Silenos Shaman" element="WIND">
+	<npc id="20685" level="61" type="Monster" name="Vanor Silenos Shaman" element="WIND">
 		<parameters>
 			<param name="MoveAroundSocial" value="100" />
 			<param name="MoveAroundSocial1" value="60" />
@@ -6706,16 +6479,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
 			<param name="LongRangeGuardRate" value="10" />
-			<skill name="W_LongRangeDDMagic" id="4155" level="4" />
-			<skill name="W_ShortRangeDDMagic" id="4160" level="4" />
-			<skill name="DeBuff" id="4076" level="3" />
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="9" /> <!-- Cedar Staff -->
-		<acquire exp="4724" sp="208" attributeExp="20" />
+		<acquire exp="5619" sp="188" attributeExp="20" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2259.30514025271" hpRegen="7.5" mp="1158" mpRegen="2.7" />
+			<vitals hp="4622.532" hpRegen="7.5" mp="1158" mpRegen="2.7" />
 			<attack physical="562.02275" magical="383.78868" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="267.04468" magical="195.41171" />
 			<speed>
@@ -6728,20 +6498,8 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="6" /> <!-- HP Very High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4076" level="3" /> <!-- Decrease Speed -->
-			<skill id="4155" level="4" /> <!-- NPC Twister - Magic -->
-			<skill id="4160" level="4" /> <!-- NPC Aura Burn - Magic -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -6775,7 +6533,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20686" level="65" type="Monster" name="Vanor Silenos Chieftain" element="WIND">
+	<npc id="20686" level="62" type="Monster" name="Vanor Silenos Chieftain" element="WIND">
 		<parameters>
 			<param name="MoveAroundSocial" value="90" />
 			<param name="MoveAroundSocial1" value="60" />
@@ -6790,9 +6548,9 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="75" /> <!-- Caliburs -->
-		<acquire exp="4862" sp="395" attributeExp="22" />
+		<acquire exp="5958" sp="359" attributeExp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2313.74622796964" hpRegen="7.5" mp="1188.8" mpRegen="2.7" />
+			<vitals hp="4807.433" hpRegen="7.5" mp="1188.8" mpRegen="2.7" />
 			<attack physical="582.81759" magical="397.98887" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="271.89033" magical="198.95754" />
 			<speed>
@@ -6805,16 +6563,7 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="6" /> <!-- HP Very High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 			<skill id="4065" level="5" /> <!-- NPC Heal -->
 		</skillList>
