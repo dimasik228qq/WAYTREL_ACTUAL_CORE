@@ -64,7 +64,7 @@
 		</skill>
 		<skill skillName="Swift Servitor Heal" skillId="45362" skillLevel="46" getLevel="76" levelUpSp="8100000" />
 		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="1" getLevel="76" levelUpSp="8100000">
-			<item id="93870,95514" count="1" /> <!-- Spellbook: Ethereal Strike -->
+			<item id="57" count="10000000" /> <!-- 93870,95514 Spellbook: Ethereal Strike -->
 		</skill>
 		<skill skillName="Blessed by Sayha" skillId="45408" skillLevel="1" getLevel="76" levelUpSp="0">
 			<item id="57" count="10000000" /> <!-- Adena -->

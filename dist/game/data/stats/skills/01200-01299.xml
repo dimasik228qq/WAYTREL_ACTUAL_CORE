@@ -5306,7 +5306,7 @@
 					<value level="24">162</value>
 					<value level="25">165</value>
 				</power>
-				<percentage>80</percentage>
+				<percentage>20</percentage>
 			</effect>
 		</effects>
 	</skill>

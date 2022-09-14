@@ -2535,7 +2535,7 @@
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>STIGMA_OF_SILEN</abnormalType>
 		<abnormalVisualEffect>STIGMA_OF_SILEN</abnormalVisualEffect>
-		<castRange>600</castRange>
+		<castRange>700</castRange>
 		<effectPoint>
 			<value level="1">-400</value>
 			<value level="2">-500</value>

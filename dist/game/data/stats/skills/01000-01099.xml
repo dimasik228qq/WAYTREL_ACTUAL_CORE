@@ -1589,7 +1589,7 @@
 	<skill id="1031" toLevel="10" name="Divine Strike">
 		<!-- Summons holy light. Inflicts magic damage with $s1 power. Deals additional damage to demons and undead. -->
 		<icon>icon.skill1031</icon>
-		<castRange>600</castRange>
+		<castRange>700</castRange>
 		<effectPoint>
 			<value level="1">-90</value>
 			<value level="2">-100</value>

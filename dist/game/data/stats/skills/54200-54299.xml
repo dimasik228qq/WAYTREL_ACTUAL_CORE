@@ -175,15 +175,15 @@
 		<itemConsumeCount>50</itemConsumeCount>
 		<effects>
 			<effect name="PAtk">
-				<amount>40</amount>
+				<amount>30</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="CriticalDamage">
-				<amount>40</amount>
+				<amount>30</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="PhysicalSkillCriticalDamage">
-				<amount>40</amount>
+				<amount>30</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="PhysicalAttackSpeed">

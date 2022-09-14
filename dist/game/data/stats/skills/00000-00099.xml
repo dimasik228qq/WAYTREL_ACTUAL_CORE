@@ -1367,8 +1367,7 @@
 		<effectRange>400</effectRange>
 		<fanRange>0;0;200;180</fanRange>
 		<hitTime>720</hitTime>
-		<itemConsumeCount>2</itemConsumeCount>
-		<itemConsumeId>5589</itemConsumeId> <!-- Energy Stone -->
+
 		<magicLevel>
 			<value level="1">41</value>
 			<value level="2">42</value>
@@ -2121,8 +2120,7 @@
 		<effectRange>400</effectRange>
 		<fanRange>0;0;200;180</fanRange>
 		<hitTime>783</hitTime>
-		<itemConsumeCount>2</itemConsumeCount>
-		<itemConsumeId>5589</itemConsumeId> <!-- Energy Stone -->
+
 		<magicLevel>
 			<value level="1">41</value>
 			<value level="2">42</value>
@@ -5047,6 +5045,10 @@
 					<value level="29">3023</value>
 					<value level="30">3065</value>
 				</power>
+			</effect>
+						<effect name="AttackTrait">
+				<UNDEAD_WEAKNESS>5</UNDEAD_WEAKNESS>
+				<DEMONIC_WEAKNESS>5</DEMONIC_WEAKNESS>
 			</effect>
 		</effects>
 	</skill>

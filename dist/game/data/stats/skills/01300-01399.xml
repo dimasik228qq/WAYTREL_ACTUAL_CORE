@@ -3080,8 +3080,7 @@
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
-		<affectScope>PARTY</affectScope>
-		<affectObject>FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="HpRegen">
 				<amount>
@@ -3115,50 +3114,50 @@
 			</effect>
 			<effect name="PhysicalAttackSpeed">
 				<amount>
-					<value level="1">10</value>
-					<value level="2">15</value>
+					<value level="1">15</value>
+					<value level="2">30</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="MagicalAttackSpeed">
 				<amount>
-					<value level="1">10</value>
-					<value level="2">15</value>
+					<value level="1">15</value>
+					<value level="2">30</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="PvePhysicalAttackDamageBonus">
 				<amount>
-					<value level="1">15</value>
-					<value level="2">20</value>
+					<value level="1">20</value>
+					<value level="2">30</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="CriticalRate">
 				<amount>
-					<value level="1">15</value>
-					<value level="2">20</value>
+					<value level="1">20</value>
+					<value level="2">30</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="MagicCriticalRate">
 				<amount>
-					<value level="1">15</value>
-					<value level="2">20</value>
+					<value level="1">20</value>
+					<value level="2">30</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="CriticalDamage">
 				<amount>
-					<value level="1">15</value>
-					<value level="2">20</value>
+					<value level="1">20</value>
+					<value level="2">30</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="MagicCriticalDamage">
 				<amount>
-					<value level="1">15</value>
-					<value level="2">20</value>
+					<value level="1">20</value>
+					<value level="2">30</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>

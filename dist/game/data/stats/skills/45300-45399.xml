@@ -1221,7 +1221,7 @@
 		<castRange>700</castRange>
 		<hitTime>1000</hitTime>
 		<coolTime>500</coolTime>
-		<reuseDelay>3000</reuseDelay>
+		<reuseDelay>5000</reuseDelay>
 		<effectPoint>
 			<value level="1">-400</value>
 			<value level="2">-450</value>

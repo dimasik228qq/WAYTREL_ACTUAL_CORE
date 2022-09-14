@@ -2450,7 +2450,6 @@
 			<value level="5">99</value>
 			<value level="6">105</value>
 		</mpConsume>
-		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
 		<reuseDelay>3000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2477,17 +2476,20 @@
 				</power>
 				<ignoreShieldDefence>true</ignoreShieldDefence>
 				<overHit>true</overHit>
+				<criticalChance>20</criticalChance>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="45158" toLevel="6" name="Ultimate Enuma Elish">
 		<!-- <Ultimate skill> Attacks the enemies at the front with $s1 power using the sword. Critical. Ignores Shield Defense. Ignores $s2 of the target's defense. -->
 		<icon>icon.skill10265</icon>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>900</affectRange>
 		<operateType>A1</operateType>
 		<castRange>300</castRange>
 		<hitTime>1500</hitTime>
 		<coolTime>720</coolTime>
-		<reuseDelay>15000</reuseDelay>
+		<reuseDelay>3000</reuseDelay>
 		<effectPoint>
 			<value level="1">-920</value>
 			<value level="2">-1070</value>
@@ -2496,6 +2498,8 @@
 			<value level="5">-1295</value>
 			<value level="6">-1370</value>
 		</effectPoint>
+		<effectRange>500</effectRange>
+		<fanRange>0;0;500;90</fanRange>
 		<mpConsume>
 			<value level="1">64</value>
 			<value level="2">73</value>
@@ -2504,6 +2508,34 @@
 			<value level="5">89</value>
 			<value level="6">94</value>
 		</mpConsume>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>ENEMY</targetType>
+		<affectScope>FAN</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<conditions>
+			<condition name="Op2hWeapon">
+				<weaponType>
+					<item>SWORD</item>
+					<item>ANCIENTSWORD</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">2250</value>
+					<value level="2">3150</value>
+					<value level="3">3780</value>
+					<value level="4">4347</value>
+					<value level="5">4781</value>
+					<value level="6">5020</value>
+				</power>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<overHit>true</overHit>
+				<pDefMod>0.75</pDefMod>
+				<criticalChance>25</criticalChance>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="45159" toLevel="3" name="Rush Impact">
 		<!-- <Shock skill> Rushes forward to attack enemies at the front with $s1 power. Stuns them for $s2 Can be used if the distance to the target is more than $s3. -->
@@ -2769,7 +2801,7 @@
 		<castRange>700</castRange>
 		<effectRange>1200</effectRange>
 		<hitTime>1500</hitTime>
-		<reuseDelay>2000</reuseDelay>
+		<reuseDelay>3000</reuseDelay>
 		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">50</value>
